@@ -1,0 +1,85 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#login-container {
+  width: 460px;
+  margin: 0 auto;
+}
+
+form label,
+form input {
+  width: 100%;
+  box-sizing: border-box;
+}
+form input {
+  padding: 8px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.input-container {
+  position: relative;
+}
+
+.check {
+  visibility: hidden;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 22px;
+  color: green;
+}
+
+.failed {
+  visibility: hidden;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 22px;
+  color: red;
+}
+
+.show-check-username {
+  visibility: visible;
+}
+
+.show-failed-username {
+  visibility: visible;
+}
+
+.show-check-password {
+  visibility: visible;
+}
+
+.show-failed-password {
+  visibility: visible;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.success {
+  border: 1px solid green;
+}
+
+#username,
+#password,
+#login {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+#message {
+  margin: 0;
+}
